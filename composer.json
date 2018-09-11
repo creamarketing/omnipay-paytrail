@@ -1,0 +1,17 @@
+{
+	"name": "creamarketing/paytrail",
+	"type": "library",
+	"description": "Creamarketing paytrail omnipay library",
+	"authors": [
+		{
+			"name": "Creamarketing",
+			"homepage": "http://www.creamarketing.com"
+		}
+	],
+	"autoload": {
+		"psr-4": { "Omnipay\\Paytrail\\" : "src/" }
+	},
+	"require": {
+		"omnipay/common": "~2.0"
+	}
+}
